@@ -33,7 +33,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     BrowserModule,
     AdminModule,
     AppRoutingModule,
-    FormsModule,
+    //FormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
     ShareModule,

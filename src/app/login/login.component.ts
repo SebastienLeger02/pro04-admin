@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
@@ -25,7 +26,7 @@ export class LoginComponent implements OnInit {
     this.authS.auth(form.value['email'], form.value['password']).then(
       () => {
         // la redirection après connexion
-        this.router.navigate(['/dashboard'], {queryParams : {message : 'success'}});
+        this.router.navigate(['/dashboard'], { queryParams: { message: 'success' } });
       }
     ).catch(
       error => this.messageError = 'Error login'
